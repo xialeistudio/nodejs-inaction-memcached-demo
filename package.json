@@ -1,0 +1,22 @@
+{
+  "name": "memcached-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "set": "node dist/set",
+    "get": "node dist/get",
+    "delete": "node dist/delete"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/memcached": "^2.2.3",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "memcached": "^2.2.2"
+  }
+}
